@@ -1,8 +1,9 @@
-# React + Vite
++ ReUsabale Button and Accordian components.
++ Router is done usng react-router-dom.
++ Built using best React principles
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run this project: 
++ Download the zip and extract it.
++ Open Visual Studio IDE. then, Open the terminal and navigate to the project folder.
++ type `npm i` to install all the packages.
++ type `npm run dev` and open the localhost link.
