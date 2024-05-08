@@ -61,7 +61,7 @@ function Home() {
               />
             </svg>
             <div className="nav__items__button-container">
-              <Button height={77} to="/register">
+              <Button height={77} to="/brunel/register">
                 Get Projects
               </Button>
               <Button
@@ -88,7 +88,7 @@ function Home() {
       <div className="section__grid">
         <div className="fig__section-main__container">
           <figure className="figure__container">
-            <img src="/image.png" alt="image of a girl" />
+            <img src="./image.png" alt="image of a girl" />
           </figure>
           <div className="figure__medium__box">
             <div className="figure__medium__span">
