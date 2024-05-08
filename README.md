@@ -1,5 +1,5 @@
-+ Router is done usng react-router-dom.
-+ Re-usabale Button and Accordian components.
++ Routing is done using react-router-dom.
++ Made Reusabale Button and Accordion components.
 + Built using best React principles
 
 To run this project: 
