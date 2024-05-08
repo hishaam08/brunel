@@ -5,17 +5,11 @@ import Form from "./components/Form";
 const router = createBrowserRouter([
   {
     path: "/",
-    // element: <Home />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "https://brunel-fawn.vercel.app/register",
-        element: <Form />,
-      },
-    ],
+    element: <Home />,
+  },
+  {
+    path: "/register",
+    element: <Form />,
   },
 ]);
 
