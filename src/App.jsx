@@ -12,7 +12,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/register",
+        path: "https://brunel-fawn.vercel.app/register",
         element: <Form />,
       },
     ],
