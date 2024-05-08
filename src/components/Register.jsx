@@ -15,7 +15,7 @@ function Register({ setSuccess }) {
   return (
     <>
       <nav className="nav__register">
-        <Link to={"/brunel/"}>
+        <Link to={"/"}>
           <svg
             width="121"
             height="30.5"
@@ -29,7 +29,7 @@ function Register({ setSuccess }) {
             />
           </svg>
         </Link>
-        <Link to={"/brunel/"}>
+        <Link to={"/"}>
           <div className="btn__close">
             <svg
               width="32"

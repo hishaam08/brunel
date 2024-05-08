@@ -19,7 +19,7 @@ function Success() {
   useEffect(() => {
     if (seconds === 0) {
       console.log("Seconds ", seconds);
-      navigate("/brunel/");
+      navigate("/");
     }
   }, [seconds]);
 
