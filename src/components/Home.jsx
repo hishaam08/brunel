@@ -61,7 +61,7 @@ function Home() {
               />
             </svg>
             <div className="nav__items__button-container">
-              <Button height={77} to="/brunel/register">
+              <Button height={77} to="/register">
                 Get Projects
               </Button>
               <Button
