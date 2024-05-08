@@ -5,11 +5,17 @@ import Form from "./components/Form";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/register",
-    element: <Form />,
+    // element: <Home />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/register",
+        element: <Form />,
+      },
+    ],
   },
 ]);
 
